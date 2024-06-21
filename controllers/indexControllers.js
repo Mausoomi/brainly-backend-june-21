@@ -2980,9 +2980,9 @@ exports.Fetch_FreePayment = catchAsyncErrors(async (req, res) => {
         isFree: products.isFree,
       },
       success_url:
-        "https://667563d45e61a00008d9edd3--idyllic-hummingbird-f60be5.netlify.app/successPayment",
+        "https://667566c66fa1e000087f0240--idyllic-hummingbird-f60be5.netlify.app/successPayment",
       cancel_url:
-        "https://667563d45e61a00008d9edd3--idyllic-hummingbird-f60be5.netlify.app/cancelPayment",
+        "https://667566c66fa1e000087f0240--idyllic-hummingbird-f60be5.netlify.app/cancelPayment",
     });
 
     res.json({ id: session.id });
@@ -3025,9 +3025,9 @@ exports.Fetch_PaymentDetails = catchAsyncErrors(async (req, res) => {
       // success_url: "http://localhost:3000/successPayment",
       // cancel_url: "http://localhost:3000/cancelPayment",
       success_url:
-        "https://667563d45e61a00008d9edd3--idyllic-hummingbird-f60be5.netlify.app/successPayment",
+        "https://667566c66fa1e000087f0240--idyllic-hummingbird-f60be5.netlify.app/successPayment",
       cancel_url:
-        "https://667563d45e61a00008d9edd3--idyllic-hummingbird-f60be5.netlify.app/cancelPayment",
+        "https://667566c66fa1e000087f0240--idyllic-hummingbird-f60be5.netlify.app/cancelPayment",
     });
 
     return res.json({ id: session.id });
