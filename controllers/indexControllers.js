@@ -2979,8 +2979,10 @@ exports.Fetch_FreePayment = catchAsyncErrors(async (req, res) => {
         Plan_Name: products.title,
         isFree: products.isFree,
       },
-      success_url: "http://localhost:3000/successPayment",
-      cancel_url: "http://localhost:3000/cancelPayment",
+      success_url:
+        "https://main--idyllic-hummingbird-f60be5.netlify.app/successPayment",
+      cancel_url:
+        "https://main--idyllic-hummingbird-f60be5.netlify.app/cancelPayment",
     });
 
     res.json({ id: session.id });
